@@ -1,0 +1,215 @@
+Orig Old Line,Old Config,Orig New Line,New Config,Change Made
+156,"annotate system ""annotation""",,,Removed
+35,set chassis aggregated-devices ethernet device-count 10,37,set chassis aggregated-devices ethernet device-count 10,None
+36,set chassis alarm management-ethernet link-down ignore,46,set chassis alarm management-ethernet link-down ignore,None
+,,40,set chassis fpc 0 pic 0 port 12 speed 1G,Added
+,,41,set chassis fpc 0 pic 0 port 16 speed 1G,Added
+,,42,set chassis fpc 0 pic 0 port 20 speed 1G,Added
+,,43,set chassis fpc 0 pic 0 port 24 speed 1G,Added
+,,44,set chassis fpc 0 pic 0 port 36 speed 1G,Added
+,,38,set chassis fpc 0 pic 0 port 4 speed 1G,Added
+,,45,set chassis fpc 0 pic 0 port 44 speed 1G,Added
+,,39,set chassis fpc 0 pic 0 port 8 speed 1G,Added
+34,set chassis redundancy graceful-switchover,36,set chassis redundancy graceful-switchover,None
+126,set forwarding-options analyzer ANALYZER input egress interface xe-0/0/0.0,193,set forwarding-options analyzer ANALYZER input egress interface xe-0/0/0.0,None
+125,set forwarding-options analyzer ANALYZER input ingress interface xe-0/0/0.0,192,set forwarding-options analyzer ANALYZER input ingress interface xe-0/0/0.0,None
+127,set forwarding-options analyzer ANALYZER output interface ge-0/0/39.0,194,set forwarding-options analyzer ANALYZER output interface ge-0/0/39.0,None
+124,set forwarding-options storm-control-profiles default all,191,set forwarding-options storm-control-profiles default all,None
+97,set interfaces ae1 aggregated-ether-options lacp active,161,set interfaces ae1 aggregated-ether-options lacp active,None
+96,set interfaces ae1 aggregated-ether-options link-speed 1g,160,set interfaces ae1 aggregated-ether-options link-speed 1g,None
+99,set interfaces ae1 unit 0 family ethernet-switching interface-mode access,163,set interfaces ae1 unit 0 family ethernet-switching interface-mode access,None
+100,set interfaces ae1 unit 0 family ethernet-switching vlan members vlan206,164,set interfaces ae1 unit 0 family ethernet-switching vlan members vlan206,None
+103,set interfaces ae2 aggregated-ether-options lacp active,167,set interfaces ae2 aggregated-ether-options lacp active,None
+102,set interfaces ae2 aggregated-ether-options link-speed 10g,,,Removed
+,,166,set interfaces ae2 aggregated-ether-options link-speed 40g,Added
+104,set interfaces ae2 unit 0 family ethernet-switching interface-mode trunk,168,set interfaces ae2 unit 0 family ethernet-switching interface-mode trunk,None
+105,set interfaces ae2 unit 0 family ethernet-switching vlan members all,169,set interfaces ae2 unit 0 family ethernet-switching vlan members all,None
+107,set interfaces ae3 aggregated-ether-options link-speed 1g,171,set interfaces ae3 aggregated-ether-options link-speed 1g,None
+108,set interfaces ae3 unit 0 family ethernet-switching interface-mode trunk,172,set interfaces ae3 unit 0 family ethernet-switching interface-mode trunk,None
+109,set interfaces ae3 unit 0 family ethernet-switching vlan members [ VLAN400 VLAN300 ],,,Removed
+,,174,set interfaces ae3 unit 0 family ethernet-switching vlan members VLAN300,Added
+,,173,set interfaces ae3 unit 0 family ethernet-switching vlan members VLAN400,Added
+,,176,set interfaces em0 unit 0 family inet address 10.10.102.67/21,Added
+110,set interfaces em1 unit 0 family inet,177,set interfaces em1 unit 0 family inet,None
+41,set interfaces ge-0/0/1 disable,,,Removed
+,,144,set interfaces et-0/0/48 ether-options 802.3ad ae2,Added
+,,147,set interfaces et-0/0/49 ether-options 802.3ad ae2,Added
+,,150,set interfaces et-0/0/50 ether-options 802.3ad ae2,Added
+,,153,set interfaces et-0/0/51 unit 0 family ethernet-switching,Added
+,,154,set interfaces et-0/0/52 unit 0 family ethernet-switching,Added
+,,155,set interfaces et-0/0/53 unit 0 family ethernet-switching,Added
+,,156,set interfaces et-0/0/54 unit 0 family ethernet-switching,Added
+,,159,set interfaces et-0/0/55 unit 0 family ethernet-switching,Added
+,,68,set interfaces ge-0/0/10 unit 0 family ethernet-switching interface-mode access,Added
+,,69,set interfaces ge-0/0/10 unit 0 family ethernet-switching vlan members vlan206,Added
+,,71,set interfaces ge-0/0/11 unit 0 family ethernet-switching interface-mode access,Added
+,,72,set interfaces ge-0/0/11 unit 0 family ethernet-switching vlan members vlan206,Added
+62,set interfaces ge-0/0/12 unit 0 family ethernet-switching interface-mode access,74,set interfaces ge-0/0/12 unit 0 family ethernet-switching interface-mode access,None
+63,set interfaces ge-0/0/12 unit 0 family ethernet-switching vlan members VLAN300,75,set interfaces ge-0/0/12 unit 0 family ethernet-switching vlan members VLAN300,None
+65,set interfaces ge-0/0/13 unit 0 family ethernet-switching interface-mode access,77,set interfaces ge-0/0/13 unit 0 family ethernet-switching interface-mode access,None
+66,set interfaces ge-0/0/13 unit 0 family ethernet-switching vlan members VLAN400,78,set interfaces ge-0/0/13 unit 0 family ethernet-switching vlan members VLAN400,None
+,,79,set interfaces ge-0/0/14 unit 0 family ethernet-switching,Added
+,,80,set interfaces ge-0/0/15 unit 0 family ethernet-switching,Added
+,,81,set interfaces ge-0/0/16 unit 0 family ethernet-switching,Added
+,,82,set interfaces ge-0/0/17 unit 0 family ethernet-switching,Added
+68,set interfaces ge-0/0/18 unit 0 family ethernet-switching interface-mode access,84,set interfaces ge-0/0/18 unit 0 family ethernet-switching interface-mode access,None
+69,set interfaces ge-0/0/18 unit 0 family ethernet-switching vlan members 100,85,set interfaces ge-0/0/18 unit 0 family ethernet-switching vlan members 100,None
+46,set interfaces ge-0/0/2 unit 0 family ethernet-switching interface-mode access,,,Removed
+47,set interfaces ge-0/0/2 unit 0 family ethernet-switching vlan members vlan206,,,Removed
+,,86,set interfaces ge-0/0/19 unit 0 family ethernet-switching,Added
+71,set interfaces ge-0/0/20 unit 0 family ethernet-switching interface-mode access,88,set interfaces ge-0/0/20 unit 0 family ethernet-switching interface-mode access,None
+72,set interfaces ge-0/0/20 unit 0 family ethernet-switching vlan members 100,89,set interfaces ge-0/0/20 unit 0 family ethernet-switching vlan members 100,None
+,,90,set interfaces ge-0/0/21 unit 0 family ethernet-switching,Added
+,,91,set interfaces ge-0/0/22 unit 0 family ethernet-switching,Added
+,,92,set interfaces ge-0/0/23 unit 0 family ethernet-switching,Added
+74,set interfaces ge-0/0/24 ether-options 802.3ad ae3,94,set interfaces ge-0/0/24 ether-options 802.3ad ae3,None
+73,set interfaces ge-0/0/24 ether-options 802.3ad lacp force-up,93,set interfaces ge-0/0/24 ether-options 802.3ad lacp force-up,None
+76,set interfaces ge-0/0/25 ether-options 802.3ad ae3,96,set interfaces ge-0/0/25 ether-options 802.3ad ae3,None
+75,set interfaces ge-0/0/25 ether-options 802.3ad lacp force-up,95,set interfaces ge-0/0/25 ether-options 802.3ad lacp force-up,None
+78,set interfaces ge-0/0/26 unit 0 family ethernet-switching interface-mode access,98,set interfaces ge-0/0/26 unit 0 family ethernet-switching interface-mode access,None
+79,set interfaces ge-0/0/26 unit 0 family ethernet-switching vlan members vlan206,99,set interfaces ge-0/0/26 unit 0 family ethernet-switching vlan members vlan206,None
+81,set interfaces ge-0/0/27 unit 0 family ethernet-switching interface-mode access,101,set interfaces ge-0/0/27 unit 0 family ethernet-switching interface-mode access,None
+82,set interfaces ge-0/0/27 unit 0 family ethernet-switching vlan members vlan206,102,set interfaces ge-0/0/27 unit 0 family ethernet-switching vlan members vlan206,None
+49,set interfaces ge-0/0/3 unit 0 family ethernet-switching interface-mode access,,,Removed
+,,109,set interfaces ge-0/0/32 disable,Added
+50,set interfaces ge-0/0/3 unit 0 family ethernet-switching vlan members vlan206,,,Removed
+,,110,set interfaces ge-0/0/32 unit 0 family ethernet-switching,Added
+,,113,set interfaces ge-0/0/33 disable,Added
+,,114,set interfaces ge-0/0/33 unit 0 family ethernet-switching,Added
+,,117,set interfaces ge-0/0/34 disable,Added
+,,118,set interfaces ge-0/0/34 unit 0 family ethernet-switching,Added
+,,121,set interfaces ge-0/0/35 disable,Added
+,,122,set interfaces ge-0/0/35 unit 0 family ethernet-switching,Added
+87,set interfaces ge-0/0/36 unit 0 family inet address 10.0.0.11/24,,,Removed
+,,126,set interfaces ge-0/0/36 unit 0 family inet address 10.0.89.11/24,Added
+,,127,set interfaces ge-0/0/37 unit 0 family ethernet-switching,Added
+,,128,set interfaces ge-0/0/38 unit 0 family ethernet-switching,Added
+89,set interfaces ge-0/0/39 unit 0 family ethernet-switching,130,set interfaces ge-0/0/39 unit 0 family ethernet-switching,None
+51,set interfaces ge-0/0/4 ether-options 802.3ad ae1,58,set interfaces ge-0/0/4 ether-options 802.3ad ae1,None
+,,136,set interfaces ge-0/0/44 unit 0 family ethernet-switching vlan members vlan100,Added
+,,137,set interfaces ge-0/0/45 unit 0 family ethernet-switching,Added
+,,139,set interfaces ge-0/0/46 unit 0 family ethernet-switching interface-mode access,Added
+,,140,set interfaces ge-0/0/46 unit 0 family ethernet-switching vlan members vlan206,Added
+94,set interfaces ge-0/0/47 unit 0 family ethernet-switching interface-mode trunk,142,set interfaces ge-0/0/47 unit 0 family ethernet-switching interface-mode trunk,None
+95,set interfaces ge-0/0/47 unit 0 family ethernet-switching vlan members vlan206,143,set interfaces ge-0/0/47 unit 0 family ethernet-switching vlan members vlan206,None
+52,set interfaces ge-0/0/5 ether-options 802.3ad ae1,59,set interfaces ge-0/0/5 ether-options 802.3ad ae1,None
+53,set interfaces ge-0/0/6 ether-options 802.3ad ae1,60,set interfaces ge-0/0/6 ether-options 802.3ad ae1,None
+54,set interfaces ge-0/0/7 ether-options 802.3ad ae1,61,set interfaces ge-0/0/7 ether-options 802.3ad ae1,None
+,,63,set interfaces ge-0/0/8 disable,Added
+59,set interfaces ge-0/0/9 unit 0 family ethernet-switching interface-mode access,65,set interfaces ge-0/0/9 unit 0 family ethernet-switching interface-mode access,None
+60,set interfaces ge-0/0/9 unit 0 family ethernet-switching vlan members vlan206,66,set interfaces ge-0/0/9 unit 0 family ethernet-switching vlan members vlan206,None
+113,set interfaces irb unit 100 family inet address 10.0.0.59/25 vrrp-group 100 accept-data,180,set interfaces irb unit 100 family inet address 10.0.0.59/25 vrrp-group 100 accept-data,None
+112,set interfaces irb unit 100 family inet address 10.0.0.59/25 vrrp-group 100 preempt,179,set interfaces irb unit 100 family inet address 10.0.0.59/25 vrrp-group 100 preempt,None
+111,set interfaces irb unit 100 family inet address 10.0.0.59/25 vrrp-group 100 virtual-address 10.0.0.58,178,set interfaces irb unit 100 family inet address 10.0.0.59/25 vrrp-group 100 virtual-address 10.0.0.58,None
+117,set interfaces irb unit 206 family inet address 10.0.0.227/27 vrrp-group 110 accept-data,184,set interfaces irb unit 206 family inet address 10.0.0.227/27 vrrp-group 110 accept-data,None
+116,set interfaces irb unit 206 family inet address 10.0.0.227/27 vrrp-group 110 preempt,183,set interfaces irb unit 206 family inet address 10.0.0.227/27 vrrp-group 110 preempt,None
+115,set interfaces irb unit 206 family inet address 10.0.0.227/27 vrrp-group 110 virtual-address 10.0.0.254,182,set interfaces irb unit 206 family inet address 10.0.0.227/27 vrrp-group 110 virtual-address 10.0.0.254,None
+114,set interfaces irb unit 206 family inet filter input PBR,181,set interfaces irb unit 206 family inet filter input PBR,None
+118,set interfaces lo0 unit 0 family inet filter input mgmt,185,set interfaces lo0 unit 0 family inet filter input mgmt,None
+38,set interfaces xe-0/0/0 unit 0 family ethernet-switching interface-mode access,48,set interfaces xe-0/0/0 unit 0 family ethernet-switching interface-mode access,None
+39,set interfaces xe-0/0/0 unit 0 family ethernet-switching vlan members vlan100,49,set interfaces xe-0/0/0 unit 0 family ethernet-switching vlan members vlan100,None
+43,set interfaces xe-0/0/1 unit 0 family ethernet-switching interface-mode access,51,set interfaces xe-0/0/1 unit 0 family ethernet-switching interface-mode access,None
+44,set interfaces xe-0/0/1 unit 0 family ethernet-switching vlan members vlan206,52,set interfaces xe-0/0/1 unit 0 family ethernet-switching vlan members vlan206,None
+,,54,set interfaces xe-0/0/2 unit 0 family ethernet-switching interface-mode access,Added
+,,55,set interfaces xe-0/0/2 unit 0 family ethernet-switching vlan members vlan206,Added
+,,103,set interfaces xe-0/0/28 unit 0 family ethernet-switching,Added
+,,104,set interfaces xe-0/0/29 unit 0 family ethernet-switching,Added
+,,56,set interfaces xe-0/0/3 enable,Added
+,,57,set interfaces xe-0/0/3 unit 0 family ethernet-switching,Added
+84,set interfaces xe-0/0/30 unit 0 family ethernet-switching interface-mode access,106,set interfaces xe-0/0/30 unit 0 family ethernet-switching interface-mode access,None
+85,set interfaces xe-0/0/30 unit 0 family ethernet-switching vlan members vlan206,107,set interfaces xe-0/0/30 unit 0 family ethernet-switching vlan members vlan206,None
+,,108,set interfaces xe-0/0/31 unit 0 family ethernet-switching,Added
+,,111,set interfaces xe-0/0/32 disable,Added
+,,112,set interfaces xe-0/0/32 unit 0 family ethernet-switching,Added
+,,115,set interfaces xe-0/0/33 disable,Added
+,,116,set interfaces xe-0/0/33 unit 0 family ethernet-switching,Added
+,,119,set interfaces xe-0/0/34 disable,Added
+,,120,set interfaces xe-0/0/34 unit 0 family ethernet-switching,Added
+,,123,set interfaces xe-0/0/35 disable,Added
+,,124,set interfaces xe-0/0/35 unit 0 family ethernet-switching,Added
+,,131,set interfaces xe-0/0/40 unit 0 family ethernet-switching,Added
+,,132,set interfaces xe-0/0/41 unit 0 family ethernet-switching,Added
+,,133,set interfaces xe-0/0/42 unit 0 family ethernet-switching,Added
+,,134,set interfaces xe-0/0/43 unit 0 family ethernet-switching,Added
+90,set interfaces xe-0/0/43 ether-options 802.3ad ae2,,,Removed
+,,146,set interfaces xe-0/0/48 gigether-options 802.3ad ae2,Added
+91,set interfaces xe-0/0/44 ether-options 802.3ad ae2,,,Removed
+,,149,set interfaces xe-0/0/49 gigether-options 802.3ad ae2,Added
+92,set interfaces xe-0/0/45 ether-options 802.3ad ae2,,,Removed
+,,152,set interfaces xe-0/0/50 gigether-options 802.3ad ae2,Added
+56,set interfaces xe-0/0/7 unit 0 family ethernet-switching interface-mode access,,,Removed
+57,set interfaces xe-0/0/7 unit 0 family ethernet-switching vlan members vlan206,,,Removed
+,,158,set interfaces xe-0/0/54 unit 0 family ethernet-switching vlan members default,Added
+138,set protocols igmp-snooping vlan all,206,set protocols igmp-snooping vlan all,None
+137,set protocols igmp-snooping vlan default,205,set protocols igmp-snooping vlan default,None
+139,set protocols layer2-control nonstop-bridging,207,set protocols layer2-control nonstop-bridging,None
+135,set protocols lldp interface all,203,set protocols lldp interface all,None
+136,set protocols lldp-med interface all,204,set protocols lldp-med interface all,None
+140,set protocols rstp bridge-priority 8k,208,set protocols rstp bridge-priority 8k,None
+146,set protocols rstp interface ae2,214,set protocols rstp interface ae2,None
+147,set protocols rstp interface ae3 no-root-port,215,set protocols rstp interface ae3 no-root-port,None
+142,set protocols rstp interface ge-0/0/18 no-root-port,210,set protocols rstp interface ge-0/0/18 no-root-port,None
+143,set protocols rstp interface ge-0/0/20 no-root-port,211,set protocols rstp interface ge-0/0/20 no-root-port,None
+144,set protocols rstp interface ge-0/0/26,212,set protocols rstp interface ge-0/0/26,None
+145,set protocols rstp interface ge-0/0/27,213,set protocols rstp interface ge-0/0/27,None
+141,set protocols rstp interface xe-0/0/0 edge,209,set protocols rstp interface xe-0/0/0 edge,None
+129,set routing-options interface-routes rib-group inet PBR-TABLE,195,set routing-options interface-routes rib-group inet PBR-TABLE,None
+128,set routing-options nonstop-routing,202,set routing-options nonstop-routing,None
+134,set routing-options rib-groups PBR-TABLE import-rib [ inet.0 PBR-VRF.inet.0 ],,,Removed
+,,201,set routing-options rib-groups PBR-TABLE import-rib PBR-VRF.inet.0,Added
+,,200,set routing-options rib-groups PBR-TABLE import-rib inet.0,Added
+131,set routing-options static route 0.0.0.0/0 qualified-next-hop 10.0.0.4 preference 10,196,set routing-options static route 0.0.0.0/0 qualified-next-hop 10.0.0.4 preference 10,None
+133,set routing-options static route 0.0.0.0/0 qualified-next-hop 10.0.0.5 bfd-liveness-detection minimum-interval 1000,198,set routing-options static route 0.0.0.0/0 qualified-next-hop 10.0.0.5 bfd-liveness-detection minimum-interval 1000,None
+132,set routing-options static route 0.0.0.0/0 qualified-next-hop 10.0.0.5 preference 1,197,set routing-options static route 0.0.0.0/0 qualified-next-hop 10.0.0.5 preference 1,None
+130,set routing-options static route 10.0.0.32/19 next-hop 10.0.0.225,,,Removed
+,,199,set routing-options static route 10.0.0.0/8 next-hop 10.0.0.225,Added
+123,set snmp community HEY-SNMP authorization read-only,190,set snmp community HEY-SNMP authorization read-only,None
+122,set snmp community HEY-SNMP view EXCLUDE-RSVP,189,set snmp community HEY-SNMP view EXCLUDE-RSVP,None
+121,set snmp view EXCLUDE-RSVP oid .1 include,188,set snmp view EXCLUDE-RSVP oid .1 include,None
+119,set snmp view EXCLUDE-RSVP oid jnxRsvpMIB exclude,186,set snmp view EXCLUDE-RSVP oid jnxRsvpMIB exclude,None
+120,set snmp view EXCLUDE-RSVP oid jnxVpnMIB exclude,187,set snmp view EXCLUDE-RSVP oid jnxVpnMIB exclude,None
+3,set system auto-snapshot,3,set system auto-snapshot,None
+30,set system commit synchronize,29,set system commit synchronize,None
+27,set system compress-configuration-files,30,set system compress-configuration-files,None
+29,set system extensions providers chef license-type juniper deployment-scope commercial,32,set system extensions providers chef license-type juniper deployment-scope commercial,None
+28,set system extensions providers juniper license-type juniper deployment-scope commercial,31,set system extensions providers juniper license-type juniper deployment-scope commercial,None
+2,set system host-name OLD-HOST-NAME,,,Removed
+,,2,set system host-name NEW-HOST-NAME,Added
+10,set system login class super-user-local idle-timeout 10,11,set system login class super-user-local idle-timeout 10,None
+11,set system login class super-user-local permissions all,12,set system login class super-user-local permissions all,None
+8,set system login retry-options backoff-factor 5,9,set system login retry-options backoff-factor 5,None
+7,set system login retry-options backoff-threshold 2,8,set system login retry-options backoff-threshold 2,None
+9,set system login retry-options lockout-period 10,10,set system login retry-options lockout-period 10,None
+6,set system login retry-options tries-before-disconnect 6,7,set system login retry-options tries-before-disconnect 6,None
+13,set system login user hello class super-user,14,set system login user hello class super-user,None
+12,set system login user hello uid 2005,13,set system login user hello uid 2005,None
+5,set system no-ping-record-route,5,set system no-ping-record-route,None
+33,set system ntp server 10.0.0.38,35,set system ntp server 10.0.0.38,None
+32,set system processes app-engine-virtual-machine-management-service traceoptions flag all,34,set system processes app-engine-virtual-machine-management-service traceoptions flag all,None
+31,set system processes app-engine-virtual-machine-management-service traceoptions level notice,33,set system processes app-engine-virtual-machine-management-service traceoptions level notice,None
+,,6,"set system root-authentication encrypted-password ""blablabla""",Added
+15,set system services ssh connection-limit 10,17,set system services ssh connection-limit 10,None
+14,set system services ssh protocol-version v2,16,set system services ssh protocol-version v2,None
+16,set system services ssh rate-limit 3,18,set system services ssh rate-limit 3,None
+,,15,set system services ssh root-login allow,Added
+26,set system syslog file interactive-commands interactive-commands any,25,set system syslog file interactive-commands interactive-commands any,None
+23,set system syslog file messages any any,26,set system syslog file messages any any,None
+24,set system syslog file messages authorization info,27,set system syslog file messages authorization info,None
+25,set system syslog file messages daemon info,28,set system syslog file messages daemon info,None
+18,set system syslog host 10.0.0.89 any notice,20,set system syslog host 10.0.0.89 any notice,None
+19,set system syslog host 10.0.0.89 authorization info,21,set system syslog host 10.0.0.89 authorization info,None
+21,set system syslog host 10.0.0.89 change-log any,23,set system syslog host 10.0.0.89 change-log any,None
+20,set system syslog host 10.0.0.89 daemon info,22,set system syslog host 10.0.0.89 daemon info,None
+22,set system syslog host 10.0.0.89 source-address 10.0.0.227,24,set system syslog host 10.0.0.89 source-address 10.0.0.227,None
+17,set system syslog user * any emergency,19,set system syslog user * any emergency,None
+4,set system time-zone Asia/Singapore,4,set system time-zone Asia/Singapore,None
+1,set version 14.1X53-D47.3,,,Removed
+,,1,set version 23.4R2-S5.8,Added
+149,set vlans VLAN300 vlan-id 300,217,set vlans VLAN300 vlan-id 300,None
+148,set vlans VLAN400 vlan-id 400,216,set vlans VLAN400 vlan-id 400,None
+150,set vlans default vlan-id 1,218,set vlans default vlan-id 1,None
+152,set vlans vlan100 l3-interface irb.100,220,set vlans vlan100 l3-interface irb.100,None
+151,set vlans vlan100 vlan-id 100,219,set vlans vlan100 vlan-id 100,None
+154,set vlans vlan206 l3-interface irb.206,222,set vlans vlan206 l3-interface irb.206,None
+153,set vlans vlan206 vlan-id 206,221,set vlans vlan206 vlan-id 206,None
+155,top,,,Removed
