@@ -1,0 +1,2 @@
+source,target,label,src_label,trgt_label
+node-1,node-2,"ethernet link",et-0/0/0,et-0/0/1

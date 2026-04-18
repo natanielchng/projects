@@ -1,0 +1,11 @@
+﻿source,target,label,src_label,trgt_label
+node-1,node-2,ethernet link 1,et-0/0/0,et-0/0/1
+node-1,node-2,ethernet link 2,et-0/0/1,et-0/0/2
+node-1,node-2,ethernet link 3,et-0/0/2,et-0/0/3
+node-1,node-2,ethernet link 4,et-0/0/3,et-0/0/4
+node-1,node-2,ethernet link 5,et-0/0/4,et-0/0/5
+node-1,node-2,ethernet link 6,et-0/0/5,et-0/0/6
+node-1,node-2,ethernet link 7,et-0/0/6,et-0/0/7
+node-1,node-2,ethernet link 8,et-0/0/7,et-0/0/8
+node-1,node-2,ethernet link 9,et-0/0/8,et-0/0/9
+node-1,node-2,ethernet link 10,et-0/0/9,et-0/0/10
